@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/:match*", "destination": "https://ravelloh.vercel.app/:match*" }
+    { "source": "/:match", "destination": "https://ravelloh.vercel.app/:match" }
   ],
   "trailingSlash": false
 }
