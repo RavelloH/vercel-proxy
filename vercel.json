@@ -1,5 +1,7 @@
 {
-  "rewrites": [
-      {"source": "/:match/:url*", "destination": "https://:match/vercel.app/:url*"}
+  "version": 2,
+  "routes": [
+      {"src": "/(.*)/:urls*","dest": "https://$1.vercel.app/:urls"}
   ]
+
 }
