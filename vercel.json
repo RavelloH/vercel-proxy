@@ -1,7 +1,7 @@
 {
   "version": 2,
   "routes": [
-      {"src": "/(?<host>[/(.*)/]+)","dest": "https://$host.vercel.app/"}
+      {"src": "/(?<host>[/(.*)/])","dest": "https://$host.vercel.app/"}
   ]
 
 }
