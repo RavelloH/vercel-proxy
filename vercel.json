@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-      {"src": "/(.*)","dest": "https://ravelloh.vercel.app/$1"}
-      
+  "rewrites": [
+    { "source": "/:match*", "destination": "https://ravelloh.vercel.app/:match*" }
   ]
 }
