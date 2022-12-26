@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/:match/:url*", "destination": "https://:match.vercel.app/:url*" },
-    { "source": "/", "destination": "README.md" }
+    { "source": "/", "destination": "/" }
   ]
 }
